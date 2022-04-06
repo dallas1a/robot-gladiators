@@ -129,7 +129,8 @@ var endGame = function () {
   }
   else {
     window.alert('Thank you for playing Robot Gladiators! Come back soon!');
-  };
+  }
+};
 
   // go to shop between battles function
   var shop = function () {
@@ -180,7 +181,7 @@ var endGame = function () {
         break;
     }
   };
-}
+
   // start first game when page loads
   startGame();
 
